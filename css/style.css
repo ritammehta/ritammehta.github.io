@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #373E40;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto 1em;
+    padding: 2em 2em 4em;
+    width: 100%;
+    font-family: monospace;
+    color: #fff;
+}
+
+a {
+    color: #058ED9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#headshot {
+    max-width: 20%;
+    border-radius: 20%;
+}
+
+#header {
+    /* margin: auto 1em; */
+}
+
+#name {
+    font-family: "Reenie Beanie", "Cedarville Cursive", cursive;
+    font-size: 2.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.float-left {
+    float: left;
+    margin: auto 1em auto auto;
+}
+
+#about-me {
+    margin: 3em auto 4em;
+}
+
+#links {
+    margin: 2em auto;
+}
+
+#keywords{
+    font-size: .75em;
+}
