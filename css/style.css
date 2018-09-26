@@ -60,3 +60,13 @@ p {
 #keywords{
     font-size: .75em;
 }
+
+#projects p {
+    font-size: .8em;
+}
+
+.project-image {
+    float: left;
+    margin: auto 1em auto auto;
+    max-width: 15%;
+}
