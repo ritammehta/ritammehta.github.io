@@ -65,8 +65,12 @@ p {
     font-size: .8em;
 }
 
+.project {
+    margin: auto 1em 1em;
+}
+
 .project-image {
     float: left;
     margin: auto 1em auto auto;
-    max-width: 15%;
+    max-width: 10%;
 }
