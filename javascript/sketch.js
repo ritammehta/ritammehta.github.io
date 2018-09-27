@@ -76,7 +76,7 @@ function distFromMouse(linex, liney){
 }
 
 function mousePressed(){
-  if (mouseY < centery + 10 && mouseY >= centery - 10 && mouseX <= centerx + 20 && mouseX > centerx - 20){
+  if (mouseY < centery + 100 && mouseY > centery - 100 && mouseX < centerx + 100 && mouseX > centerx - 100){
     //range accounting for text length
     window.open("../present.html");
 }
