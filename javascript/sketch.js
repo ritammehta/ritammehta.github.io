@@ -61,7 +61,7 @@ function timeline() {
             yearString = "The Present"
         }
         else if(count === 2050){
-            futureY = i;
+            futureX = i;
             yearString = "The Future"
         }
         textAlign(CENTER, TOP)
@@ -79,7 +79,15 @@ function mousePressed(){
   if (mouseY < centery + 100 && mouseY > centery - 100 && mouseX < centerx + 100 && mouseX > centerx - 100){
     //range accounting for text length
     window.open("../present.html");
-}
+    }
+    if (mouseY < centery + 100 && mouseY > centery - 100 && mouseX < pastX + 100 && mouseX > pastX - 100){
+      //range accounting for text length
+      window.open("../past.html");
+    }
+    if (mouseY < centery + 100 && mouseY > centery - 100 && mouseX < futureX + 100 && mouseX > futureX - 100){
+      //range accounting for text length
+      window.open("../future.html");
+    }
 }
 
 
