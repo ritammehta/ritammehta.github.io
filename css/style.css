@@ -4,17 +4,26 @@
 
 html {
     background-color: #FFFAFF;
-    font-size: 1.5em;
     margin: 0;
     padding: 0;
 }
 
 body {
     margin: auto 1em;
+    font-size: 1.5em;
     padding: 2em 2em 4em;
     max-width: 800px;
     font-family: "Lato", monospace;
     color: #0A2463;
+}
+
+@media only screen and (max-width: 40em) {
+
+    body {
+	  padding:1em;
+      font-size: 1em;
+    }
+
 }
 
 a {
