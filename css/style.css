@@ -3,7 +3,7 @@
 }
 
 html {
-    background-color: #373E40;
+    background-color: #FFFAFF;
     font-size: 1.5em;
     margin: 0;
     padding: 0;
@@ -12,31 +12,33 @@ html {
 body {
     margin: auto 1em;
     padding: 2em 2em 4em;
-    width: 100%;
-    font-family: monospace;
-    color: #fff;
+    max-width: 800px;
+    font-family: "Lato", monospace;
+    color: #0A2463;
 }
 
 a {
-    color: #058ED9;
+    color:  #1098F7;
     text-decoration: none;
 }
 
 a:hover {
-    color: #fff;
+    color: #6DAEDB;
 }
 
 #headshot {
-    max-width: 20%;
+    max-width: 200px;
     border-radius: 20%;
 }
 
 #header {
     /* margin: auto 1em; */
+    margin-bottom: 2em;
 }
 
 #name {
-    font-family: "Reenie Beanie", "Cedarville Cursive", cursive;
+    color: #DC0073;
+    font-family: "Alegreya", "Reenie Beanie", "Cedarville Cursive", cursive;
     font-size: 2.5em;
 }
 
@@ -50,8 +52,9 @@ p {
 }
 
 #about-me {
-    margin: 3em auto 4em;
+    max-width: 800px;
 }
+
 
 #links {
     margin: 2em auto;
@@ -66,11 +69,16 @@ p {
 }
 
 .project {
-    margin: auto 1em 1em;
+    margin: auto 1em 2em;
+    max-width: 800px;
+}
+
+.project:after{
+    clear: both;
 }
 
 .project-image {
-    float: left;
     margin: auto 1em auto auto;
-    max-width: 10%;
+    float: left;
+    max-width: 200px;
 }
