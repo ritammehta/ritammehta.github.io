@@ -12,7 +12,7 @@ void setup(){
 
     // set colors
     bGround = color(#264073);
-    cStroke = color(#dfe1e6)
+    cStroke =  color(#dfe1e6)
     c1 = color(#ef5f5d);
     c2 = color(#21897E);
     c3 = color(#8EAEBD);
