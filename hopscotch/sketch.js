@@ -20,11 +20,11 @@ class Board{
     // check to see if you clicked on a valid tile
     checkTiles(x, y){
         if(this.zeroX == x){
-            this.moveVertical(x, y)
+            this.moveVertical(x, y);
             return;
         }
         if(this.zeroY == y){
-            this.moveHorizontal(x, y)
+            this.moveHorizontal(x, y);
             return;
         }
         return;
@@ -40,7 +40,7 @@ class Board{
         tmp.splice(y, 0, 0);
         this.zeroY = y;
         for(var i = 0; i < this.board.length; i++){
-            this.board[i].splice(x, 1, tmp[i])
+            this.board[i].splice(x, 1, tmp[i]);
         }
     }
 
